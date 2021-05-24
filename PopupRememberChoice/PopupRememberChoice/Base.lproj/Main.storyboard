@@ -20,6 +20,9 @@
                                 <rect key="frame" x="124" y="238" width="167" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go to Second Page"/>
+                                <connections>
+                                    <action selector="secondPageClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jb0-nW-GEd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -34,10 +37,10 @@
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="116.51785714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Second PageVC-->
         <scene sceneID="hCb-1J-SjY">
             <objects>
-                <viewController id="37X-7E-VAI" sceneMemberID="viewController">
+                <viewController id="37X-7E-VAI" customClass="SecondPageVC" customModule="PopupRememberChoice" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="igB-9c-h27">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
