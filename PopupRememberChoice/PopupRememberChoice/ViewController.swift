@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         //performSegue(withIdentifier: "toSecondVC", sender: nil)
         
         
-        showUpdateFirmwareDialogMessage()
+        showDialogMessage()
         
     }
     
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "toSecondVC", sender: nil)
     }
     
-    func showUpdateFirmwareDialogMessage(){
+    func showDialogMessage(){
         let alert = UIAlertController(title: "Warning!", message: "You will go to the next page, are you sure?", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "Yes", style: .default, handler: okActionClicked)
         let dontAskAgainAction = UIAlertAction(title: "Yes, Don't Ask Again", style: .cancel, handler: dontAskAgainActionClicked)
